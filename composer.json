@@ -1,0 +1,22 @@
+{
+    "name": "techworker/middleware",
+    "description": "PSR-7 middleware function for building and dispatching middlewares.",
+    "authors": [
+        {
+            "name": "Benjamin Ansbach",
+            "email": "ben@techworker.de"
+        }
+    ],
+    "require": {
+        "psr/http-message": "^1.0"
+    },
+    "autoload": {
+        "files": ["src/middleware.php"]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.1",
+        "Zendframework/zend-diactoros": "^1.4",
+        "oscarotero/psr7-middlewares": "^3.0",
+        "ramsey/uuid": "^3.6"
+    }
+}
