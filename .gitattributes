@@ -5,3 +5,7 @@
 /Makefile         export-ignore
 /phpunit.xml.dist export-ignore
 /bin              export-ignore
+
+/resources/* linguist-vendored=false
+/bin/* linguist-vendored=false
+/tests/* linguist-vendored=false
