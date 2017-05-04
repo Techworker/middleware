@@ -1,6 +1,7 @@
 {
     "name": "techworker/middleware",
     "description": "PSR-7 middleware function for building and dispatching middlewares.",
+    "license": "MIT",
     "authors": [
         {
             "name": "Benjamin Ansbach",
